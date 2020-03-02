@@ -1,10 +1,10 @@
 package main
 
 import (
+	"../core"
 	"log"
 	"net/http"
 )
-import "../core"
 
 func main() {
 	http.HandleFunc("/", core.SayHelloName)
